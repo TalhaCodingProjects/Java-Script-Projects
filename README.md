@@ -7,6 +7,6 @@ These are some of my beginner-level JS Projects for boosting the level of code ð
 5. Another project I am working on involves building a basic website with a responsive design that adjusts to different screen sizes.
 7. Another project I am working on involves building a basic chat application using JavaScript.
 8. I am also learning how to use JavaScript to manipulate the Document Object Model (DOM) by building a project that dynamically updates webpage content.
-9. One of my projects involves building a basic quiz application using JavaScript to test users' knowledge on a given topic.
+9. One of my projects involves building a basic quiz application using JavaScript.
 10. <br>
 11. # Goodbye ðŸ‘‹
