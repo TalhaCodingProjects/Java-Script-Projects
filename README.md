@@ -9,4 +9,4 @@ These are some of my beginner-level JS Projects for boosting the level of code �
 8. I am also learning how to use JavaScript to manipulate the Document Object Model (DOM) by building a project that dynamically updates webpage content.
 9. One of my projects involves building a basic quiz application using JavaScript to test users' knowledge on a given topic.
 10. <br>
-11. #Goodbye 👋
+11. # Goodbye 👋
