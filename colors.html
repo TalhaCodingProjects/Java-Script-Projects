@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            margin-top: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button onclick="changeColor()" type="button" class="btn btn-success">Success</button>
+    </div>
+
+    <script>
+        let index = 0;
+        function changeColor(){
+            let colors = ["Red", "Orange", "Blue"]
+            document.getElementsByTagName("body")[0].style.background = colors[index++];
+
+            if(index > colors.length -2){
+                index = 0;
+            }
+
+        }
+    </script>
+</body>
+</html>
