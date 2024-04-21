@@ -1,0 +1,64 @@
+<!-- This is a simple project which can Increase and Decrease numers in a countdown -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: #fcfc62;
+        }
+        .container{
+            width: 95%;
+            height: 100vh;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .counter{
+            width: 600px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding: 25px;
+            text-align: center;
+            background-color: #feffea;
+            border-radius: 5px;
+            flex-direction: column;
+        }
+
+        .counter h1{
+            font-size: 2rem;
+        }
+        #count{
+            font-size: 9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="counter">
+            <h1>Counter</h1>
+            <h1 id="count">0</h1>
+            <div>
+                <button onclick="changeCount(1)" type="button" class="btn btn-warning">Increase</button>
+                <button onclick="changeCount(-1)" type="button" class="btn btn-info">Decrease</button>
+                <button onclick="changeCount(1/2)" type="button" class="btn btn-info">Decimal Number</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let count = 0;
+        function changeCount(num){
+            count += num;
+            document.getElementById("count").innerHTML = count;
+        }
+    </script>
+</body>
+</html>
