@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            padding: 40px;
+            border: 15px solid orange;
+            color: white;
+            font-size: 4rem;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 15%;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        let Talha = prompt("Enter Snake, Water, or Gun.🔥Take care 💀")
+        let cpuI = Math.floor(Math.random() * 2)
+        let cpu = ["Snake", "Water", "Gun"][cpuI]
+        const match = (cpu, Talha)=>{
+            if(cpu === Talha){
+                return 0
+            }
+            else if(cpu === "Snake" && Talha === "Water"){
+                return "Talha"
+            }
+            else if(cpu === "Gun" && Talha === "Water"){
+                return "Talha"
+            }
+            else if(cpu === "Snake" && Talha === "Gun"){
+                return "Talha"
+            }
+            else if(cpu === "Gun" && Talha === "Snake"){
+                return "cpu"
+            }
+            else if(cpu === "Water" && Talha === "Snake"){
+                return "cpu"
+            }
+            else if(cpu === "Water" && Talha === "Gun"){
+                return "cpu"
+            }
+        }
+        let result = match(cpu, Talha)
+        document.write(`CPU : ${cpu} and Talha : ${Talha} \n the winner is : ${result}`)
+    </script>
+</body>
+</html>
