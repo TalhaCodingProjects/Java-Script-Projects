@@ -6,4 +6,4 @@ I learn how to make a calculator using HTML CSS and JS. I learn JS's main proper
 This is my best code.
 <be>
 <hr>
-# Thank You 🙏
+#Thank You 🙏
