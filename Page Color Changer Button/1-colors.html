@@ -7,30 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <style>
-        .container{
-            display: flex;
-            justify-content: center;
-            align-self: center;
-            margin-top: 1 0%;
-        }
-    </style>
+    <link rel="stylesheet" href="2-style.css">
 </head>
 <body>
     <div class="container">
         <button onclick="changeColor()" type="button" class="btn btn-success">Change the Color</button>
     </div>
 
-    <script>
-        let index = 0;
-        function changeColor(){
-            let colors = ["Red", "Orange", "Blue"]
-            document.getElementsByTagName("body")[0].style.background = colors[index++];
-
-            if(index > colors.length -2){
-                index = 0;
-            }
-        }
-    </script>
+   <script src="3-script.js"></script>
 </body>
 </html>
