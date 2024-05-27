@@ -1,0 +1,30 @@
+
+body {
+    background: #06bcc1;
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+}
+
+.quotes {
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+    font-family: Jameel Noori Nastaleeq;
+}
+
+.quotes p,
+.quotes h3 {
+    font-size: 1.5rem;
+}
