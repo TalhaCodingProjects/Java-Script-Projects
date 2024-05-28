@@ -25,3 +25,12 @@ let input = document.getElementById('inputBox')
                 }
             })
         })
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // لوڈر کو 3 سیکنڈ کے بعد ہٹائیں
+            setTimeout(function() {
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            }, 3000);
+        });
+        
